@@ -1,0 +1,29 @@
+h3{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: deeppink;
+}
+
+.palabras{
+    text-align: center;
+}
+
+.botones{
+    margin-top: 2%;
+}
+
+.botonLila{
+    background-color: plum;
+    font-size: medium;
+}
+
+.botonAmarillo{
+    background-color: yellow;
+    font-size: medium;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: medium;
+}

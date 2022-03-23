@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hazeel Calderón Gaitán" />
+    <link rel="stylesheet" type="text/css" href="css/styleGeneral.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleArreglos.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="contenidoH">
+          <img class="logo" src="imagenes/js.jpg" alt="Logo" />
+          <h1 class="tituloH">Trabajo 6</h1>
+        </div>
+      </header>
+
+      <nav class="barraNav">
+        <a class="linkNav" href="index.html">Operaciones</a>
+        <a class="linkNav" href="index2.html">Arreglos</a>
+      </nav>
+
+      <form>
+        <section>
+          <h3>Arreglos</h3>
+
+          <div class="arreglos">
+
+            <section class="palabras">
+              <label>Presione el tipo de arreglo que desea observar:</label>
+              <br>
+              <div class="botones">
+
+              <input
+                class="botonLila"
+                type="button"
+                value="Arreglos normales"
+                onclick="arregloColores()"
+              />
+
+              <input
+                class="botonAmarillo"
+                type="button"
+                value="Arreglos tipados"
+                onclick="arregloTipado()"
+              />
+              </div>
+            </section>
+          </div>
+
+        </section>
+      </form>
+
+      <footer>Copyright 2022</footer>
+    </div>
+
+    <!--JS-->
+    <script src="js/arreglos.js"></script>
+  </body>
+</html>

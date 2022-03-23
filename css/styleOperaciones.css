@@ -1,0 +1,42 @@
+form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  h3{
+    color: deeppink;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  
+  .tituloO{
+    margin-left: 2%;
+    color: deeppink;
+  }
+  
+  .operadoresB{
+    display: flex;
+  }
+  
+  .operaciones{
+    margin-top: 2%;
+  }
+  
+  .boton{
+    background-color: plum;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+  }
+  
+  .objetoM, .factorial{
+    text-align: center;
+  }
+
+  .btnFecha{
+    margin-left: 41%;
+  }
+
+  .calculos{
+    text-align: center;
+  }

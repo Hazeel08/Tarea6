@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo 6</title>
+    <meta name="author" content="Hazeel Calderón Gaitán" />
+    <link rel="stylesheet" type="text/css" href="css/styleGeneral.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleOperaciones.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="contenidoH">
+          <img class="logo" src="imagenes/js.jpg" alt="Logo" />
+          <h1 class="tituloH">Trabajo 6</h1>
+        </div>
+      </header>
+
+      <nav class="barraNav">
+        <a class="linkNav" href="index.html">Operaciones</a>
+        <a class="linkNav" href="index2.html">Arreglos</a>
+      </nav>
+
+      <form>
+        <section>
+          <h3>Operadores básicos</h3>
+
+          <div class="operadoresB">
+            <section class="numeros">
+              <label class="tituloO">Número 1:</label>
+              <input type="number" id="n1" />
+              <br />
+              <label class="tituloO">Número 2:</label>
+              <input type="number" id="n2" />
+            </section>
+
+            <section class="operaciones">
+              <input
+                class="boton"
+                type="button"
+                value="+"
+                title="Sumar"
+                onclick="operacion('+')"
+              />
+              <input
+                class="boton"
+                type="button"
+                value="-"
+                title="Restar"
+                onclick="operacion('-')"
+              />
+              <input
+                class="boton"
+                type="button"
+                value="÷"
+                title="Dividir"
+                onclick="operacion('/')"
+              />
+              <input
+                class="boton"
+                type="button"
+                value="×"
+                title="Multiplcar"
+                onclick="operacion('*')"
+              />
+              <br />
+              <br />
+              <label class="resultado">Resultado:</label>
+              <input class="res" type="textfile" id="res" disabled />
+            </section>
+          </div>
+
+          <br />
+        </section>
+
+        <section>
+          <h3>Objeto Math:</h3>
+
+          <div class="objetoM">
+            <label class="tituloO">Ver número ramdom:</label>
+            <input type="number" id="numeroR" disabled />
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Número ramdom entre 0 y 100."
+              onclick="calcularNR()"
+            />
+
+            <br />
+
+            <label class="tituloO">Raíz Cuadrada:</label>
+            <input type="number" id="raiz" />
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Calcular raíz cuadrada"
+              onclick="calcularR()"
+            />
+
+            <br />
+
+            <label class="tituloO">Potencia:</label>
+            <input type="number" id="base" />
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Calcular potencia a la 2"
+              onclick="calcularP()"
+            />
+
+            <br>
+          </div>
+
+          <div class="factorial">
+            <label class="tituloO">Factorial:</label>
+            <input type="number" id="fac" />
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Calcular factorial"
+              onclick="factorial()"
+            />
+          </div>
+        </section>
+
+        <section>
+          <br>
+          <h3>Fecha:</h3>
+
+          <input
+            class="boton btnFecha"
+            type="button"
+            value="Ver fecha y hora"
+            onclick="fecha()"
+          />
+        </section>
+
+        <section class="calculos">
+          <br>
+          <h3>Calcular edad:</h3>
+
+          <label class="tituloO">Digite en año de nacimiento:</label>
+            <input type="number" id="anno"/>
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Calcular la edad."
+              onclick="eda()"
+            />
+          
+        </section>
+
+        <section class="calculos">
+          <br>
+          <h3>Calcular año de nacimiento:</h3>
+          
+          <label class="tituloO">Digite su edad:</label>
+            <input type="number" id="edad"/>
+            <input
+              class="boton"
+              type="button"
+              value="Calcular"
+              title="Calcular el año de nacimiento."
+              onclick="annoNacimiento()"
+            />
+          
+        </section>
+      </form>
+
+      <footer>Copyright 2022</footer>
+    </div>
+
+    <!--JS-->
+    <script src="js/operaciones.js"></script>
+  </body>
+</html>
